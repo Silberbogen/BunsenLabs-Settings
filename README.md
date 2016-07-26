@@ -5,7 +5,8 @@ Nur ein Backup meiner eigenen Anpassungen an BunsenLabs Linux (https://www.bunse
 Dateien:
 * **.conkyrc**
 * **.config/openbox/rc.xml**
-
+* *bin/*
+ 
 Änderungen:
 * Fenster können per [S]+Richtung in die entsprechenden Richtungen bewegt werden
 * Fenster können per [S]+C+Richtung vergrößert/verkleinert werden
@@ -19,6 +20,8 @@ Dateien:
 * [S]+U startet die Unison-Synchronisation
 * [S]+S startet den Software Manager
 * [S]+P startet den Password Manager
+* [S]+C+A+Richtung rotiert den Bildschirm in die entsprechende Richtung
+* Das bin-Verzeichnis samt aller darin enthaltener Skripts wurde hinzugefügt.
 
 Bildschirmfotos
 ---------------

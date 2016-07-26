@@ -1,0 +1,7 @@
+#!/bin/bash
+for f in *.mp3
+do
+    name=`echo "$f" | sed -e "s/.mp3$//g"`
+    ffmpeg -i "$f" -vn -ar 44100 -ac 2 -ab 192k -f ogg -acodec vorbis -strict experimental "$name.ogg"
+#    avconv -i "$f" -vn -ar 44100 -ac 2 -ab 192k -f ogg -acodec vorbis -strict experimental "$name.ogg"
+done

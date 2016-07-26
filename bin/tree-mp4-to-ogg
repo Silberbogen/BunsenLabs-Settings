@@ -1,0 +1,2 @@
+#!/bin/bash
+find ./ -iname '*.mp4' -exec ffmpeg -i {} -vn -ar 44100 -ac 2 -ab 192k -f ogg -acodec vorbis -strict experimental {}.ogg \; && find ./ -iname '*.mp4' -exec rm -f {} \; && find ./ -iname '*.mp4.ogg' -exec rename 's/.mp4.ogg/.ogg/' {} \;

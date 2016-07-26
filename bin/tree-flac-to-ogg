@@ -1,0 +1,2 @@
+#!/bin/bash
+find ./ -iname '*.flac' -exec ffmpeg -i {} -vn -ar 44100 -ac 2 -ab 192k -f ogg -acodec vorbis -strict experimental {}.ogg \; && find ./ -iname '*.flac' -exec rm -f {} \; && find ./ -iname '*.flac.ogg' -exec rename 's/.flac.ogg/.ogg/' {} \;

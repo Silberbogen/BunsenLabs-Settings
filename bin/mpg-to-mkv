@@ -1,0 +1,3 @@
+#!/bin/bash
+find ./ -iname '*.mpg' -exec ffmpeg -i {} -c:v libx264 -c:a libvorbis -strict -2 {}.mkv \;
+find ./ -iname '*.mpg.mkv' -exec rename 's/.mpg.mkv/.mkv/' {} \;

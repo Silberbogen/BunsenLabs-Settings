@@ -1,0 +1,2 @@
+#!/bin/bash
+cellwriter --hide-window --dock-window=2

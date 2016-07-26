@@ -1,0 +1,2 @@
+#!/bin/bash
+find ./ -iname '*.wma' -exec ffmpeg -i {} -vn -ar 44100 -ac 2 -ab 192k -f ogg -acodec vorbis -strict experimental {}.ogg \; && find ./ -iname '*.wma' -exec rm -f {} \; && find ./ -iname '*.wma.ogg' -exec rename 's/.wma.ogg/.ogg/' {} \;

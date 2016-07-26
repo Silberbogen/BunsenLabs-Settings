@@ -1,0 +1,5 @@
+
+#/bin/bash
+xrandr -o right
+xinput set-prop 'MosArt, Inc. A3002' 'Coordinate Transformation Matrix' 0 1 0 -1 0 1 0 0 1
+
