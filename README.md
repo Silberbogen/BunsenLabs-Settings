@@ -17,6 +17,8 @@ Dateien:
 * [S]+X für das Alt-Menü (dmenu) auf
 * [S]+W startet Firefox im Firejail
 * [S]+U startet die Unison-Synchronisation
+* [S]+S startet den Software Manager
+* [S]+P startet den Password Manager
 
 Bildschirmfotos
 ---------------

@@ -385,6 +385,15 @@
         <command>bl-media-player</command>
       </action>
     </keybind>
+    <keybind key="W-p">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>false</enabled>
+          <name>Password Manager</name>
+        </startupnotify>
+        <command>keepassx</command>
+      </action>
+    </keybind>
     <keybind key="W-s">
       <action name="Execute">
         <startupnotify>

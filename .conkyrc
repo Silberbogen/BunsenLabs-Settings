@@ -171,6 +171,7 @@ ${hr}
 [S] + h${alignr}Task Manager
 [S] + l${alignr}Lock Screen
 [S] + m${alignr}Media Player
+[S] + p${alignr}Password Manger
 [S] + s${alignr}Software Manager
 [S] + t${alignr}Terminal
 [S] + u${alignr}Unison
